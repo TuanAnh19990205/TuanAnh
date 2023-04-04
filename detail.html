@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Web project</title>
+
+        <!-- Bootstrap 5 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Font awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <!-- Slick slider -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+        <link rel="stylesheet" href="css/slick.css" />
+        <!-- Css global -->
+        <link rel="stylesheet" href="css/style.css" />
+
+        <!-- Css local -->
+        <link rel="stylesheet" href="css/detail.css" />
+        <link rel="stylesheet" href="css/slick.css" />
+        <link rel="stylesheet" href="css/slick-theme.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="navbar-top"></div>
+            <div class="container">
+                <a class="navbar-brand" href="javascript:void(0)"><img src="img/logo/logo.png" alt="" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product.html">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex navbar-search">
+                        <input class="form-control me-2" type="text" placeholder="Search for product" />
+                        <button class="btn btn-primary" type="button">Search</button>
+                    </form>
+                </div>
+                <div class="icon-navbar d-flex">
+                    <div class="icon"><i class="fa-regular fa-user"></i></div>
+                    <div class="icon"><i class="fa-regular fa-heart"></i><span>0</span></div>
+                    <div class="icon"><i class="fa-solid fa-bag-shopping"></i><span>0</span></div>
+                </div>
+            </div>
+        </nav>
+        <div class="banner">
+            <div class="head">
+                <h1>Detail</h1>
+                <h4>Home > Detail</h4>
+            </div>
+        </div>
+
+        <div class="detail">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <!-- <div class="picture">
+                            <div class="col-lg-2">
+                                <div class="img-detail slider-nav">
+                                    <div><img src="img/Detail-product/1.jpg" alt="" /></div>
+                                    <div><img src="img/Detail-product/2.jpg" alt="" /></div>
+                                    <div><img src="img/Detail-product/2.jpg" alt="" /></div>
+                                    <div><img src="img/Detail-product/2.jpg" alt="" /></div>
+                                    <div><img src="img/Detail-product/2.jpg" alt="" /></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-10">
+                                <div class="img-show slider-for">
+                                    <div><img src="img/Detail-product/1.jpg" alt="" /></div>
+                                    <div><img src="img/Detail-product/2.jpg" alt="" /></div>
+                                    <div><img src="img/Detail-product/2.jpg" alt="" /></div>
+                                    <div><img src="img/Detail-product/2.jpg" alt="" /></div>
+                                    <div><img src="img/Detail-product/2.jpg" alt="" /></div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="picture">
+                            <div class="slider-nav">
+                                <figure><img src="img/Detail-product/1.jpg" alt="" /></figure>
+                                <figure><img src="img/Detail-product/2.jpg" alt="" /></figure>
+                                <figure><img src="img/Detail-product/3.jpg" alt="" /></figure>
+                            </div>
+                            <div class="slider-for">
+                                <figure class="zoom" onmousemove="zoom(event)" style="background-image: url(img/Detail-product/1.jpg)">
+                                    <img src="img/Detail-product/1.jpg" alt="" />
+                                </figure>
+                                <figure class="zoom" onmousemove="zoom(event)" style="background-image: url(img/Detail-product/2.jpg)">
+                                    <img src="img/Detail-product/2.jpg" alt="" />
+                                </figure>
+                                <figure class="zoom" onmousemove="zoom(event)" style="background-image: url(img/Detail-product/3.jpg)">
+                                    <img src="img/Detail-product/3.jpg" alt="" />
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="info">
+                            <div class="title">
+                                <h1>Egg Dining Table</h1>
+                            </div>
+
+                            <div class="review">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+
+                                <h4>4.7(20)</h4>
+                            </div>
+                            <div class="price">
+                                <h4><span>$150.00</span> $100.00</h4>
+                            </div>
+                            <div class="info-text">
+                                <h3>About This Item:</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam architecto eius molestias cum reprehenderit eum
+                                    doloremque laudantium nesciunt sint repellat modi mollitia earum rem alias quod voluptatibus, veritatis qui error.
+                                </p>
+                                <div class="effect">
+                                    <div id="first" class="buttonBox">
+                                        <button onclick="addToCart(2)" data-bs-toggle="modal" data-bs-target="#cartModal">ADD TO CART</button>
+                                        <!-- <div class="border1"></div>
+                                        <div class="border1"></div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="features">
+                                <div class="info-extra">
+                                    <ul>
+                                        <li><span>SKU:</span> D2300-3-2-3</li>
+                                        <li><span>Tags:</span> Hot, Trend</li>
+                                        <li>
+                                            <span>Share :</span> <i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-twitter"></i
+                                            ><i class="fa-brands fa-youtube"></i>
+                                        </li>
+                                        <li><span>Categories:</span> Living Room, Outdoor</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h4>CONTACT US</h4>
+                        <div class="info">
+                            <ul>
+                                <li>Add: 4 Copley Place, 7th Floor, Boston, MA 6</li>
+                                <li>HR Fax: 810.222.5439</li>
+                                <li>sales@Baofuniture.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <h4>CATEGORIES</h4>
+                        <div class="info">
+                            <ul>
+                                <li><a href="">Funiture</a></li>
+                                <li><a href="">Tables</a></li>
+                                <li><a href="">Seating</a></li>
+                                <li><a href="">Desks and office</a></li>
+                                <li><a href="">Storage</a></li>
+                                <li><a href="">Bed and Bath</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <h4>SERVIES</h4>
+                        <div class="info">
+                            <ul>
+                                <li><a href="">Sale</a></li>
+                                <li><a href="">Quick Ship</a></li>
+                                <li><a href="">New Designs</a></li>
+                                <li><a href="">Accidental Fabric Protection</a></li>
+                                <li><a href="">Funiture Care</a></li>
+                                <li><a href="">Gift Cards</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <h4>JOIN US</h4>
+                        <div class="info">
+                            <p>Enter your email below to be the first to know about new collections and product launches.</p>
+                            <form>
+                                <input type="text" placeholder="Email address..." />
+                                <button><i class="fa-regular fa-envelope"></i></button>
+                            </form>
+                            <div class="icon">
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-square-instagram"></i>
+                                <i class="fa-solid fa-basketball"></i>
+                                <i class="fa-brands fa-square-behance"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne"
+                    >
+                        Accordion Item #1
+                    </button>
+                </h2>
+                <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample"
+                >
+                    <div class="accordion-body">
+                        Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                        first item's accordion body.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseTwo"
+                    >
+                        Accordion Item #2
+                    </button>
+                </h2>
+                <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample"
+                >
+                    <div class="accordion-body">
+                        Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                        second item's accordion body. Let's imagine this being filled with some actual content.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree"
+                    >
+                        Accordion Item #3
+                    </button>
+                </h2>
+                <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample"
+                >
+                    <div class="accordion-body">
+                        Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                        third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make
+                        it look, at least at first glance, a bit more representative of how this would look in a real-world application.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="sub-coppy">
+                    <div class="cop">
+                        <p>Copyright © 2022. All Right Reserved</p>
+                    </div>
+                    <div class="icon">
+                        <ul>
+                            <li><img src="img/footer-img/visa.png" alt="" /></li>
+                            <li><img src="img/footer-img/paypal.png" alt="" /></li>
+                            <li><img src="img/footer-img/amazon-pay.png" alt="" /></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-bottom-0">
+                        <h5 class="modal-title" id="exampleModalLabel">Your Shopping Cart</h5>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table table-image">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Product</th>
+                                    <th scope="col">Type</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Quantity</th>
+                                    <th scope="col">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody class="cart"></tbody>
+                        </table>
+                        <div class="d-flex justify-content-end">
+                            <h5>
+                                Total:
+                                <span class="price text-success total-price">$100</span>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-top-0 d-flex justify-content-between">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <a href="order.html" type="button" class="btn btn-success">Checkout</a>
+                    </div>
+                </div>
+            </div>
+            <img src="img/Detail-product/1.jpg" alt="" />
+        </div>
+
+        <!-- JQUERY -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <!-- Bootstrap 5 -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/cart-localstorage@latest/dist/cart-localstorage.min.js" defer></script>
+        <!-- slick slider -->
+        <!-- js myself -->
+        <script src="js/style.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script>
+            $(".slider-for").slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                dots: false,
+                fade: true,
+                asNavFor: ".slider-nav",
+            });
+            $(".slider-nav").slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                vertical: true,
+                verticalSwiping: true,
+                asNavFor: ".slider-for",
+                dots: false,
+                arrows: false,
+                centerMode: true,
+                focusOnSelect: true,
+            });
+
+            function zoom(e) {
+                var zoomer = e.currentTarget;
+                e.offsetX ? (offsetX = e.offsetX) : (offsetX = e.touches[0].pageX);
+                e.offsetY ? (offsetY = e.offsetY) : (offsetX = e.touches[0].pageX);
+                x = (offsetX / zoomer.offsetWidth) * 100;
+                y = (offsetY / zoomer.offsetHeight) * 100;
+                zoomer.style.backgroundPosition = x + "% " + y + "%";
+            }
+
+            var products = [
+                {
+                    id: 1,
+                    name: "Product 1",
+                    price: 100,
+                    amount: 1,
+                    image: "https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/vans.png",
+                },
+                {
+                    id: 2,
+                    name: "Product 2",
+                    price: 300,
+                    amount: 1,
+                    image: "https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/vans.png",
+                },
+            ];
+
+            function renderCart(items) {
+                const $cart = document.querySelector(".cart");
+                const $totalPrice = document.querySelector(".total-price");
+                $cart.innerHTML = items
+                    .map(
+                        (item) => `
+                        <tr>
+                        <td class="w-25">
+                                <img
+                                    src="/img/Detail-product/1.jpg"
+                                    class="img-fluid img-thumbnail"
+                                    alt="Sheep"
+                                />
+                            </td>
+                            <td>${item.name}</td>
+                            <td>${item.price}</td>
+                            <td class="qty">
+                                <button type="button" class="btn btn-block btn-sm btn-outline-primary"
+                                 onclick="cartLS.quantity('add',${item.id})">+</button>
+                                <input type="text" class="form-control" id="input1" value="${item.quantity}" />
+                                <button type="button" class="btn btn-block btn-sm btn-outline-primary"
+                                onclick="changeAmount('sub',${item.id})">-</button>
+                            </td>
+                            <td>100$</td>
+                           
+                            </tr>
+                        `
+                    )
+                    .join("");
+                $totalPrice.innerHTML = "$" + cartLS.total();
+            }
+
+            function addToCart(id) {
+                var product = products.find((p) => p.id === id);
+                // let product = {};
+                // products.forEach((p, index) => {
+                //     if (p.id === id) product = p;
+                // });
+
+                cartLS.add(product);
+                renderCart(cartLS.list());
+            }
+
+            function removeCart(id) {
+                renderCart(cartLS.list());
+            }
+
+            function changeAmount(action, item) {
+                if (action == "add") {
+                    cartLS.quantity(item, 1);
+                } else {
+                    cartLS.quantity(item, -1);
+                }
+
+                renderCart(cartLS.list());
+            }
+
+            $(function () {
+                renderCart(cartLS.list());
+            });
+        </script>
+    </body>
+</html>

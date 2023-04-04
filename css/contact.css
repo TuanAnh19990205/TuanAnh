@@ -1,0 +1,113 @@
+.banner .head {
+    background: linear-gradient(to top, #00000080, #00000080), url("../img/Product/banner/bg-breadcrumb.jpg");
+    text-align: center;
+    padding: 150px 0 50px;
+    background-size: cover;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.descriptiton {
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(227, 227, 227);
+}
+.descriptiton .title {
+    margin-bottom: 34px;
+    width: 82%;
+}
+.descriptiton .title h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #181818;
+}
+.descriptiton .title p {
+    color: #868686;
+    font-size: 14px;
+}
+.descriptiton .icon-info .detail {
+    display: flex;
+    justify-content: auto;
+}
+.descriptiton .detail .icon {
+    background-color: var(--primary-color);
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.descriptiton .detail .icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.descriptiton .detail .content h3 {
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 0;
+}
+.descriptiton .detail .content p {
+    font-size: 16px;
+    color: #868686;
+}
+.descriptiton .headline {
+    text-align: center;
+}
+.descriptiton .headline i {
+    font-size: 30px;
+}
+.descriptiton .headline h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #181818;
+}
+.descriptiton .input1 {
+    margin-bottom: 12px;
+}
+.descriptiton .input1 label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #181818;
+}
+.descriptiton .input1 input {
+    height: 36px;
+    width: 100%;
+    border: 1px solid #000;
+    background: #fff;
+    outline: none;
+    padding-left: 8px;
+}
+.descriptiton .input2 {
+    margin-bottom: 16px;
+}
+.descriptiton .input2 label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #181818;
+}
+.descriptiton .input2 textarea {
+    width: 100%;
+    border: 1px solid #000;
+    background: #fff;
+    outline: none;
+    height: 80%;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+.descriptiton button {
+    background-color: var(--primary-color);
+    padding: 7px 46px;
+    border: none;
+    color: #fff;
+    height: 42px;
+    transition: 0.5s;
+    display: grid;
+    margin: 20px auto;
+}
+.descriptiton button:hover {
+    background-color: var(--secondary-color);
+}

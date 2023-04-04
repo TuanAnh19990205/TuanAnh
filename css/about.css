@@ -1,0 +1,216 @@
+.banner .head {
+    background: linear-gradient(to top, #00000080, #00000080), url("../img/Product/banner/bg-breadcrumb.jpg");
+    text-align: center;
+    padding: 150px 0 50px;
+    background-size: cover;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.banner .container {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.container .history-info .content {
+    text-align: center;
+}
+.history-info .content h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #292929;
+}
+.history-info .content p {
+    color: #7a7a7a;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 7px 217px;
+}
+.history-info .content img {
+    width: 25%;
+    vertical-align: middle;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.features {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.features .row:first-child {
+    margin-bottom: 40px;
+}
+.features .title h2 {
+    color: #292929;
+    font-size: 20px;
+    font-weight: 600;
+}
+.features .content {
+    display: block;
+}
+.features .content p {
+    text-align: left;
+    color: #878787;
+    font-size: 16px;
+    font-weight: 300;
+}
+.features .content a {
+    color: #292929;
+    font-size: 12px;
+    transition: 0.3s ease;
+}
+.features .content a:hover {
+    transform: scale(0.6);
+    font-size: 14px;
+    color: var(--primary-color);
+}
+.features .content i {
+    color: #878787;
+    vertical-align: middle;
+    font-size: 13px;
+    margin-left: 2px;
+}
+.features .percent h4 {
+    font-size: 15px;
+    font-weight: 200;
+    color: #292929;
+    line-height: 3;
+}
+.features .percent .progress-bar span {
+    font-size: 13px;
+}
+.percent .progress-bar {
+    background-color: #e0e0e0;
+    width: 470px;
+    height: 13px;
+    overflow: unset;
+}
+.progress-bar div {
+    height: 13px;
+    width: 0%;
+    background-color: var(--primary-color);
+}
+.progress-bar div > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background: #fff;
+    float: right;
+    margin-top: -13px;
+    margin-right: -20px;
+    color: #181818;
+}
+.progress-bar .modern {
+    animation: modern 1.4s linear forwards;
+}
+.progress-bar .classic {
+    animation: classic 1.4s linear forwards;
+}
+.progress-bar .wooden {
+    animation: wooden 1.4s linear forwards;
+}
+@keyframes modern {
+    100% {
+        width: 86%;
+    }
+}
+@keyframes classic {
+    100% {
+        width: 77%;
+    }
+}
+@keyframes wooden {
+    100% {
+        width: 80%;
+    }
+}
+
+.features .col-lg-3 {
+    display: flex;
+}
+.features .pic i {
+    font-weight: 600;
+    margin-right: 12px;
+}
+.features .text h5 {
+    font-size: 16px;
+    color: #181818;
+}
+.features .text h6 {
+    font-weight: 200;
+    font-size: 14px;
+}
+.qas {
+    margin: 0 auto;
+    width: 70%;
+}
+.qas .title h2 {
+    color: #292929;
+    font-size: 20px;
+    font-weight: 600;
+}
+.dropdown-info .drop {
+    position: relative;
+}
+.dropdown-info .drop h3 {
+    font-size: 14px;
+}
+.dropdown-info .drop i {
+    font-size: 12px;
+}
+.dropdown-info .drop .dropdown-content p {
+    font-size: 12px;
+    position: absolute;
+    left: 13px;
+    margin-top: -3px;
+}
+/* .dropdown-info .drop i {
+    font-size: 13px;
+    margin-right: 4px;
+}
+.dropbtn {
+    background-color: #3498db;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:focus {
+    background-color: #2980b9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    background-color: #f1f1f1;
+    height: 0;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    height: 100%;
+} */

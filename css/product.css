@@ -1,0 +1,220 @@
+.banner .head {
+    background: linear-gradient(to top, #00000080, #00000080), url("../img/Product/banner/bg-breadcrumb.jpg");
+    text-align: center;
+    padding: 150px 0 50px;
+    background-size: cover;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.row .title .price {
+    width: 100%;
+}
+
+.banner .container .title h3 {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.banner .list {
+    margin-bottom: 40px;
+}
+.banner .list ul {
+    padding-left: 0;
+}
+.banner .list ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #a6a6a6;
+    font-weight: 50px;
+    padding-bottom: 12px;
+}
+.banner .list ul li span {
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 25px;
+    color: #181818;
+}
+.banner .pricing-rg {
+    margin-bottom: 40px;
+}
+.banner .pricing-rg .nameprice h3 {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+.banner .pricing-rg .slide-bar {
+    margin-bottom: 12px;
+}
+.banner .pricing-rg .slide-bar .container {
+    background-color: white;
+    height: 32px;
+    width: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 12px;
+    padding: 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input[type="range"] {
+    width: 98%;
+    height: 3.5px;
+    appearance: none;
+    background-color: #dcdcdc;
+    border-radius: 4px;
+    outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+input[type="range"]:active::-webkit-slider-thumb {
+    background-color: white;
+    border: 4px solid var(--primary-color);
+}
+.slide-bar .values {
+    width: 10%;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.slide-bar .values .wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: 0.3s;
+}
+.slide-bar .values .wrapper span {
+    display: block;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 13px;
+}
+.pricing-rg .price-range h4 {
+    font-size: 14px;
+    color: #a6a6a6;
+}
+.pricing-rg .price-range span {
+    color: #181818;
+    margin-left: 8px;
+}
+.color .title h3 {
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.color {
+    margin-bottom: 20px;
+}
+
+.color .features ul li div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.color .features ul {
+    padding-left: 0;
+}
+.color .features ul li {
+    display: flex;
+
+    align-items: center;
+    color: #a6a6a6;
+    font-weight: 50px;
+    padding-bottom: 12px;
+}
+.color .features ul li span {
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 25px;
+    color: #181818;
+    margin-left: auto;
+}
+.brands {
+    margin-bottom: 40px;
+}
+.brands .title {
+    font-size: 20px;
+    color: #181818;
+}
+
+.brands .pic-brand img {
+    display: inline-block;
+    width: 94px;
+    height: 94px;
+    border: 1px solid #dcdcdc;
+    margin-right: 6px;
+}
+.feature-product {
+    margin-bottom: 60px;
+}
+.feature-product .title h3 {
+    font-size: 20px;
+    color: #181818;
+}
+.feature-product .detail {
+    display: flex;
+    margin-bottom: 22px;
+}
+.feature-product .detail .img {
+    display: inline-block;
+    padding: 0;
+    margin-right: 12px;
+}
+.feature-product .detail .img img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #dcdcdc;
+}
+.feature-product .info .icon i {
+    color: #fcad02;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+.feature-product .text h4 {
+    font-size: 16px;
+    color: #181818;
+}
+.feature-product .text .discount {
+    display: flex;
+    align-items: center;
+}
+.feature-product .text .discount h5 span {
+    text-decoration: line-through;
+    color: #878787cc;
+    font-size: 14px;
+    margin-right: 4px;
+}
+.feature-product .text .discount h5:last-child {
+    font-size: 16px;
+    color: red;
+}
+.one {
+    margin-bottom: 24px;
+}
+.footer {
+    border-top: 1px solid rgb(227, 227, 227);
+    padding-top: 26px;
+}
